@@ -1,0 +1,39 @@
+.hero-bg {
+	/*background: url(http://shanghaigdg.qiniudn.com/132.jpg) no-repeat center;*/
+	background: url(../images/279448.jpg) no-repeat center;
+	background-color: black;
+}
+
+.hero-bg-mask {
+	background-color: rgba(0,0,0,0.8)
+}
+
+.image .gdg-logo {
+	/*width: 300px;*/
+}
+
+.hero-banner {
+	/*background-color: rgba(0,0,0,0.6);*/
+}
+
+.hero-banner h1 strong {
+	color: #e6e6e6;
+}
+
+.schedule-table {
+	background: #fff;
+	box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.15), 0px 2px 3px 0px rgba(0,0,0,0.1);
+}
+
+.schedule-table td {
+	/*font-weight: bold;*/
+	border: 1px solid #d8d8d8;
+}
+
+.schedule-table .rowspan {
+	vertical-align: middle;
+}
+
+.schedule-table .time {
+	font-weight: normal;
+}
