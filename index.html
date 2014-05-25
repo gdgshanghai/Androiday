@@ -6,11 +6,12 @@
 -->
 <html>
 <head>
-	<title>China Android Develop Day</title>
+	<title>China Android Developer Day</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
+	<link href="images/favicon.ico"  rel="shortcut icon"  type="image/x-icon" />
 	<script src="js/jquery.min.js"></script>
 	<script src="js/config.js"></script>
 	<script src="js/skel.min.js"></script>
@@ -34,6 +35,9 @@
 			<li><a href="#speakers">演讲嘉宾</a></li>
 			<li><a href="#about">关于</a></li>
 			<li><a href="#address">场地信息</a></li>
+			<li><a href="http://androiday.org/">往届回顾</a></li>
+			<li><a href="http://19wu.com/androidaytest" class = "button submit">报名参会</a></li>
+
 		</ul>
 	</nav>
 
@@ -46,10 +50,10 @@
 				</div>
 				<div class="8u hero-banner">
 					<header>
-						<h1><strong>China Android Develop Day</strong></h1>
+						<h1><strong>China Android Developer Day</strong></h1>
 					</header>
 					<p>
-						中国为Android手机和相关电子产品制造大国，投入Android开发的工作者数量巨大。但上海至今仍欠缺一个Android开发者的交流大会。 上海GDG希望能够集结国内外重要的Andr​​oid开发专家与大师，在上海召开一次Android Developer Day技术交流大会。
+						上海谷歌开发者社区（GDG Shanghai）从2013年起举办的Android Day（安卓开发者日）已经成为上海最大的安卓技术、产品设计和未来发展趋势的基于Android技术的移动互联网交流盛会，预计今年将有国内外的10位专家和讲师参与，吸引超过350位移动开发者和产品经理、创业者等参加。
 					</p>
 				</div>
 			</div>
@@ -169,12 +173,12 @@
 					<div class="12u">
 					</div>
 				</div>
-				<div class="row">
+			<!-- 	<div class="row">
 					<div class="4u">
 						<article class="box box-style2">
 							<a href="http://flypixel.com/generic-smartphone/8949517882265310" class="image image-full"><img src="images/daniel-bovensiepen.png" alt="" /></a>
-							<h3><a href="http://flypixel.com/generic-smartphone/8949517882265310">Tony Chan</a></h3>
-							<p>在 Google 负责 Android 的推广工作.</p>
+							<h3><a href="#">NovaDNG</a></h3>
+							<p>锋客网的主笔</p>
 						</article>
 					</div>
 					<div class="4u">
@@ -191,27 +195,27 @@
 							<p>Ornare nulla proin odio consequat.</p>
 						</article>
 					</div>
-				</div>
+				</div> -->
 				<div class="row">
 					<div class="4u">
 						<article class="box box-style2">
-							<a href="http://flypixel.com/n33-pattern-set-1/3522389001865317" class="image image-full"><img src="images/portfolio04.jpg" alt="" /></a>
-							<h3><a href="http://flypixel.com/n33-pattern-set-1/3522389001865317">Tempus dolore</a></h3>
-							<p>Ornare nulla proin odio consequat.</p>
+							<a href="#" class="image image-full"><img src="images/portfolio04.jpg" alt="" /></a>
+							<h3><a href="#">NovaDNG</a></h3>
+							<p>锋客网的主笔.</p>
 						</article>
 					</div>
 					<div class="4u">
 						<article class="box box-style2">
-							<a href="http://flypixel.com/cityscape/9803996277226316" class="image image-full"><img src="images/portfolio05.jpg" alt="" /></a>
-							<h3><a href="http://flypixel.com/cityscape/9803996277226316">Feugiat aliquam</a></h3>
-							<p>Ornare nulla proin odio consequat.</p>
+							<a href="#" class="image image-full"><img src="images/portfolio05.jpg" alt="" /></a>
+							<h3><a href="#">Lookon</a></h3>
+							<p>上海GDG负责人.</p>
 						</article>
 					</div>
 					<div class="4u">
 						<article class="box box-style2">
-							<a href="http://flypixel.com/n33" class="image image-full"><img src="images/portfolio06.jpg" alt="" /></a>
-							<h3><a href="http://flypixel.com/n33">Sed amet ornare</a></h3>
-							<p>Ornare nulla proin odio consequat.</p>
+							<a href="#" class="image image-full"><img src="images/portfolio06.jpg" alt="" /></a>
+							<h3><a href="#">Bill</a></h3>
+							<p>谷歌开发技术推广部大中华区主管 .</p>
 						</article>
 					</div>
 				</div>
@@ -230,9 +234,11 @@
 				<h2>关于大会</h2>
 				<span>国际顶尖开发者和演讲者, 感受大师风范.</span>
 			</header>
+
 			<div class="container">
 				<div class="row">
 					<div class="12u">
+						<div id="map_canvas"   class="12u" style="height:400px;"></div>
 					</div>
 				</div>
 				<!-- <div class="row">
@@ -279,8 +285,8 @@
 							<h3><a href="http://flypixel.com/n33">Sed amet ornare</a></h3>
 							<p>Ornare nulla proin odio consequat.</p>
 						</article>
-					</div> -->
-				</div>
+					</div>
+				</div> -->
 			</div>
 		</article>
 	</div>
@@ -288,7 +294,7 @@
 	<!-- address -->
 	<div class="wrapper wrapper-style4">
 		<article id="address" class="container small">
-			<header>
+			<!-- <header>
 				<h2>Want to hire me? Get in touch!</h2>
 				<span>Ornare nulla proin odio consequat sapien vestibulum ipsum sed lorem.</span>
 			</header>
@@ -337,7 +343,7 @@
 							<li class="tumblr"><a href="#" class="fa fa-tumblr"><span>Tumblr</span></a></li>
 							<li class="googleplus"><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
 							<li class="github"><a href="http://github.com/n33" class="fa fa-github"><span>Github</span></a></li>
-						<!--
+						
 						<li class="rss"><a href="#" class="fa fa-rss"><span>RSS</span></a></li>
 						<li class="instagram"><a href="#" class="fa fa-instagram"><span>Instagram</span></a></li>
 						<li class="foursquare"><a href="#" class="fa fa-foursquare"><span>Foursquare</span></a></li>
@@ -347,13 +353,13 @@
 						<li class="blogger"><a href="#" class="fa fa-blogger"><span>Blogger</span></a></li>
 						<li class="flickr"><a href="#" class="fa fa-flickr"><span>Flickr</span></a></li>
 						<li class="vimeo"><a href="#" class="fa fa-vimeo"><span>Vimeo</span></a></li>
-					-->
+					
 				</ul>
 				<hr />
 			</div>
 		</div>
 	</div>
-
+ -->
 	<footer>
 		<ul id="copyright">
 			<li>&copy; 2013 Jane Doe</li>
@@ -361,6 +367,28 @@
 			<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
 		</ul>
 	</footer>
+<!-- 调用 Google Map API -->
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCj11UvqN3WiIqDGnEkPYE78M66YojcGxs&sensor=true" ></script>
+    <script type="text/javascript">	
+    function initialize() {
+        var mapOptions = {
+        	// 31.202756, 121.604072
+          center: new google.maps.LatLng(31.202756, 121.604072),
+          zoom: 16,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
 
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            mapOptions);
+		var marker = new google.maps.Marker({
+			position: map.getCenter(),
+			map: map,
+			title: '上海市浦东新区博云路2号浦软大厦'
+		});
+	}	  	
+	$(document).ready(function() {
+		initialize();
+	});
+    </script>
 </body>
 </html>
