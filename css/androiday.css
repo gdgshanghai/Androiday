@@ -41,3 +41,21 @@
 .submit {
 	overflow: visible;
 }
+
+.sponsor-wrapper {
+	padding-top: 50px;
+}
+
+.sponsor-wrapper h2 {
+	margin-top: 0.75em;
+}
+
+.sponsor-wrapper .sponsor {
+	display: block;
+	height: 150px;
+	line-height: 150px;
+}
+
+.sponsor-wrapper .sponsor img {
+	vertical-align: middle;
+}
